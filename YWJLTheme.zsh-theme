@@ -12,7 +12,7 @@ retStatus="%(?:${FG[014]}^_^${FX[reset]} ${FG[010]}%B➜ %b${FX[reset]} :${FG[01
 function gitStatus()
 {
   if [ "$(git_prompt_info)" ]; then
-    echo " ${FG[015]}-${FX[reset]} ${FG[012]}%B<%b${FX[reset]} ${FG[012]}$(git_prompt_info)${FX[reset]} ${FG[012]}%B>%b${FX[reset]}"
+    echo " ${FG[015]}-${FX[reset]} ${FG[012]}%B<%b${FX[reset]} ${FG[208]}$(git_prompt_info)${FX[reset]} ${FG[012]}%B>%b${FX[reset]}"
   fi
 }
 
