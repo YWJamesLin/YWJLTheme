@@ -22,7 +22,7 @@ PROMPT=$'${FG[012]}%B[%b${FX[reset]} ${FG[010]}%n${FX[reset]} @ ${FG[014]}%m${FX
 
 #   Option of Time
 if [ "${mod_time}" = "1" ]; then
-  date="%D{%Y}年%D{%m}月%D{%d}日 週%D{%a} %D{%H:%M}"
+  date="%D{%Y}年%D{%m}月%D{%d}日　星期%D{%a}　%D{%H:%M}"
   PROMPT+=$' ${FG[015]}-${FX[reset]} ${FG[012]}%B[%b${FX[reset]} ${FG[011]}${date}${FX[reset]} ${FG[012]}%B]%b${FX[reset]}'
 fi
 
