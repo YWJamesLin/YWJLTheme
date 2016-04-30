@@ -7,7 +7,7 @@ mod_time=1
 mod_git=1
 
 #   Show Return Status
-retStatus="%(?:${FG[014]}^_^${FX[reset]} ${FG[010]}%B➜ %b${FX[reset]} :${FG[013]}Q_Q${FX[reset]} ${FG[009]}%B➜ %b${FX[reset]} )"
+retStatus="%(?:${FG[014]}^_^${FX[reset]} ${FG[010]}%B->%b${FX[reset]} :${FG[013]}Q_Q${FX[reset]} ${FG[009]}%B->%b${FX[reset]} )"
 
 #   Check whether we're in a git repository. And if we are, show the status of this repo.
 function gitStatus()
